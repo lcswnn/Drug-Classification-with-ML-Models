@@ -6,5 +6,3 @@ This project utilizes many different types of Classification Models, including K
 
 Data used was found on Kaggle and formatted/one hot encoded in the jupyter notebook.
 link: https://www.kaggle.com/datasets/prathamtripathi/drug-classification
-
-### Findings
