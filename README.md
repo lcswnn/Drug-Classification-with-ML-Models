@@ -10,7 +10,13 @@ link: https://www.kaggle.com/datasets/prathamtripathi/drug-classification
 ### Findings
 **Feature Findings:** When graphing the importance of the features using Random Forest Classification, we could see that the sex of the patient didn't matter as much as the other features. However, when we included it in our features list, the models had better performance rather than being overfit with features and having poorer performance, or just not making a difference. The features in the final product are the ones that gave the best performance per model. We also see that the Na_to_K feature in the list is by far the most important feature in the list, and could not be excluded from the tests.
 
-**Other Findings:** We see that the Random Forest Classifier and the Decision Tree Classifier are the two superior models of this type of classification, as we see that both of the models are performing at 96%-100% accuracy, meaning both were tied for first. In second was K-Nearest Neighbors Classifier with 76% accuracy, and in third was the SVC model with a 74% accuracy, which aren't the worst scores, but definitely could be better. In fourth is the Gaussian Naive Bayes Classifier with 70% accuracy. And in last is the MLP Neural Network with 60% accuracy. This surprised me considering the model's performance on other data. I would guess there wasn't a lot of data for the neural network, there leading to a poorer performance due to lower training than required.
+**Other Findings:** Model Rankings:
+1. Random Forest Classifier/Decision Tree Classifier
+2. MLP Neural Network
+3. K-Nearest Neighbors Classifier
+4. SVC
+5. Gaussian Naive Bayes Classifier
+Due to the Random Forest Classifier being made up of many Decision Trees, it makes sense for the two models to have the same performance. However, they're not identical. If we ran further tests, my prediction would be that the Random Foest Classifier would have a higher average than the Decision Tree Classifier due to being made up of multiple Decision Trees, rather than just having one. This would mainly prevent overfitting in the model.
 
 ### Visualization of Model Performances
 **Below is the graph of all models and their performances on a run**
