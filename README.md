@@ -17,7 +17,7 @@ link: https://www.kaggle.com/datasets/prathamtripathi/drug-classification
 4. SVC
 5. Gaussian Naive Bayes Classifier
 
-*Due to the Random Forest Classifier being made up of many Decision Trees, it makes sense for the two models to have the same performance. However, they're not identical. If we ran further tests, my prediction would be that the Random Foest Classifier would have a higher average than the Decision Tree Classifier due to being made up of multiple Decision Trees, rather than just having one. This would mainly prevent overfitting in the model.*
+(*Note: Due to the Random Forest Classifier being made up of many Decision Trees, it makes sense for the two models to have the same performance. However, they're not identical. If we ran further tests, my prediction would be that the Random Foest Classifier would have a higher average than the Decision Tree Classifier due to being made up of multiple Decision Trees, rather than just having one. This would mainly prevent overfitting in the model.*)
 
 ### Visualization of Model Performances
 **Below is the graph of all models and their performances on a run**
