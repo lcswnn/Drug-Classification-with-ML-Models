@@ -14,3 +14,4 @@ link: https://www.kaggle.com/datasets/prathamtripathi/drug-classification
 
 ### Visualization of Model Performances
 **Below is the graph of all models and their performances on a run**
+![output](https://github.com/lcswnn/Drug-Classification-with-ML-Models/assets/118494460/422440fa-8dc5-4424-a288-6d2b7b7d955f)
